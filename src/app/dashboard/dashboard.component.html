@@ -3,10 +3,8 @@
 </p>
 <button (click)="goBack()">Go Back</button>
 
-<p-tabView>
-  <p-tabPanel>
+<app-tab>
+  <app-tab-panel>
     <app-plot [lineChartData]="getData()"></app-plot>
-  </p-tabPanel>
-</p-tabView>
-
-
+  </app-tab-panel>
+</app-tab>

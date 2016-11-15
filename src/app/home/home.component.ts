@@ -3,8 +3,7 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  template: '<button (click)="toDashboard()">To Dashboard</button>'
 })
 export class HomeComponent implements OnInit {
 

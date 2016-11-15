@@ -8,8 +8,8 @@ import { routing } from './app.routing';
 import {HomeComponent} from "./home/home.component";
 import {DashboardComponent} from "./dashboard/dashboard.component";
 import {PlotComponent} from "./plot/plot.component";
+import {TabComponent} from "./tab/tab.component";
 import {TabPanel} from "./tab/tab.component";
-import {TabView} from "./tab/tab.component";
 
 import { Angular2GoogleChartModule } from 'angular2-google-chart/angular2-google-chart';
 
@@ -21,7 +21,7 @@ import { Angular2GoogleChartModule } from 'angular2-google-chart/angular2-google
     DashboardComponent,
     PlotComponent,
     TabPanel,
-    TabView
+    TabComponent
   ],
   imports: [
     BrowserModule,
